@@ -4,11 +4,11 @@ const receivesAFunction = (callback) => {
 }
 
 function returnsANamedFunction() {
-    return function receivesAFunction() {}
+    return function returnMe() {}
 
     
 }
 
 function returnsAnAnonymousFunction() {
-    return function() {}
+    return () => {}
 }
